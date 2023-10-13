@@ -1,2 +1,1 @@
-# TestTaskEffectiveMobile
-Тестовое задания для Effective Mobile
+Тестовое задание для Effective Mobile

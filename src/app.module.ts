@@ -22,9 +22,9 @@ import {HistoryActions} from "./history-actions/entities/history-actions.entity"
       synchronize: true, // Синхронизация моделей
       autoLoadModels: true, // Автозагрузка моделей
       sync: {
-        force: true // После запуска удаляем БД и создаем новую
+        force: false // После запуска удаляем БД и создаем новую
       },
-      logging: console.log // Логирование (console.log or false)
+      logging: false // Логирование (console.log or false)
     }),
     UsersModule,
     HistoryActionsModule,

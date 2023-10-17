@@ -68,7 +68,7 @@ npm start
     "surname": "Levin"
 }
 
-4. GET /history-actions/{uuid} - Получить историю действий пользователя (Допустим /history-actions/5e5d9254-9a47-47db-8da9-5fecd5045027)
+4. GET /history-actions/{uuid} - Получить историю действий пользователя по uuid (Допустим /history-actions/5e5d9254-9a47-47db-8da9-5fecd5045027)
 Запрос (пустой)
 Ответ JSON -> 
 [

@@ -53,7 +53,7 @@ npm start
     }
 ]
 
-3. PATCH /users/{uuid} - Изменить данные пользователя (Допустим /users/5e5d9254-9a47-47db-8da9-5fecd5045027)
+3. PATCH /users/{uuid} - Изменить данные пользователя по uuid (Допустим /users/5e5d9254-9a47-47db-8da9-5fecd5045027)
 Запрос (Допустим) ->
 {
     "email": "newEmail@mail.ru",
